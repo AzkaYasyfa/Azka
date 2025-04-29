@@ -54,7 +54,7 @@ class Auth extends CI_Controller{
                 'role'=>$user->$role,
                 'logged_in'=> TRUE
             ]);
-               $this->redirect_by_role($user->role) 
+               $this->redirect_by_role($user->role) ;
             }else{
                 $this->session->set_flashdata('error', 'username dan password salah');
                 redirect('auth/login');
@@ -69,7 +69,7 @@ class Auth extends CI_Controller{
                     redirect('user/dashboard');
                     break;
                 default:
-                redirect{'auth.login'}
+                redirect{'auth.login'};
             }
         }
         public function logout(){
