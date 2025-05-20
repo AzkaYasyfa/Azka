@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class buku extends CI_Controller{
+class buku extends MY_Controller{
 
     public function __construct(){
         parent::__construct();
