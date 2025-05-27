@@ -55,8 +55,11 @@
                     <textarea class="form-control summernote" name="isi_berita" id="isi_berita" placeholder="Isi Berita" required></textarea>
                 </div>
                 <div class="form-group">
-                            <label for="pengirim">Pengirim</label>
+                    <label for="pengirim">Pengirim</label>
                     <input type="text" class="form-control" name="pengirim" id="pengirim" placeholder="pengirim" required>
+                </div>
+                <label for="tgl_publish">Tanggal Publish</label>
+                    <input type="date" class="form-control" name="tgl_publish" id="tgl_publish" placeholder="Tanggal" required>
                 </div>
                 <div class="box-footer">
                     <button type="submit" class="btn btn-primary">Simpan</button>
